@@ -1,0 +1,9 @@
+<call from='[main]'>
+<call from='[main] in (test.py:47)' to='[getoutput]'>
+<call from='[getoutput] in (/usr/lib/python2.7/commands.pyc:50)' to='[getstatusoutput]'>
+</call>
+</call>
+<call from='[main] in (test.py:48)' to='[hello_world]'>
+</call>
+</call>
+Exception AttributeError: "'NoneType' object has no attribute 'f_code'" in <function _remove at 0xb72edb8c> ignored
