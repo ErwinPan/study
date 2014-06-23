@@ -199,13 +199,13 @@ def parse_commodity_page(html):
 
 if __name__ == '__main__':
     try:
-		# Read file
+	# Read file
     	f = open( 'commodity_173185.html' , 'r' )
     	#f = open( 'iqc.com.tw_List_0_1_61.html' , 'r' )
-		html_text = f.read()
+	html_text = f.read()
     	f.close()
 
-		# parse 
+	# parse 
       	#parse_commodities_page(html_text)
         parse_commodity_page(html_text)
         #parse_list_page(html_text, True)
